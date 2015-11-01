@@ -1,0 +1,292 @@
+@font-face {
+	font-family: 'Cardo';
+	src: url('../fonts/cardoi99-webfont.eot');
+	src: url('../fonts/cardoi99-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/cardoi99-webfont.woff2') format('woff2'),
+		url('../fonts/cardoi99-webfont.woff') format('woff'),
+		url('../fonts/cardoi99-webfont.ttf') format('truetype'),
+		url('../fonts/cardoi99-webfont.svg#cardoitalic') format('svg');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Cardo';
+	src: url('../fonts/cardob101-webfont.eot');
+	src: url('../fonts/cardob101-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/cardob101-webfont.woff2') format('woff2'),
+		url('../fonts/cardob101-webfont.woff') format('woff'),
+		url('../fonts/cardob101-webfont.ttf') format('truetype'),
+		url('../fonts/cardob101-webfont.svg#cardobold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Cardo';
+	src: url('../fonts/cardo104s-webfont.eot');
+	src: url('../fonts/cardo104s-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/cardo104s-webfont.woff2') format('woff2'),
+		url('../fonts/cardo104s-webfont.woff') format('woff'),
+		url('../fonts/cardo104s-webfont.ttf') format('truetype'),
+		url('../fonts/cardo104s-webfont.svg#cardoregular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Sinkin Sans';
+	src: url('../fonts/sinkinsans-300light-webfont.eot');
+	src: url('../fonts/sinkinsans-300light-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/sinkinsans-300light-webfont.woff2') format('woff2'),
+		url('../fonts/sinkinsans-300light-webfont.woff') format('woff'),
+		url('../fonts/sinkinsans-300light-webfont.ttf') format('truetype'),
+		url('../fonts/sinkinsans-300light-webfont.svg#sinkin_sans300_light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Sinkin Sans';
+	src: url('../fonts/sinkinsans-300lightitalic-webfont.eot');
+	src: url('../fonts/sinkinsans-300lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/sinkinsans-300lightitalic-webfont.woff2') format('woff2'),
+		url('../fonts/sinkinsans-300lightitalic-webfont.woff') format('woff'),
+		url('../fonts/sinkinsans-300lightitalic-webfont.ttf') format('truetype'),
+		url('../fonts/sinkinsans-300lightitalic-webfont.svg#sinkin_sans300_light_italic') format('svg');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Sinkin Sans';
+	src: url('../fonts/sinkinsans-400regular-webfont.eot');
+	src: url('../fonts/sinkinsans-400regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/sinkinsans-400regular-webfont.woff2') format('woff2'),
+		url('../fonts/sinkinsans-400regular-webfont.woff') format('woff'),
+		url('../fonts/sinkinsans-400regular-webfont.ttf') format('truetype'),
+		url('../fonts/sinkinsans-400regular-webfont.svg#sinkin_sans400_regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Sinkin Sans';
+	src: url('../fonts/sinkinsans-400italic-webfont.eot');
+	src: url('../fonts/sinkinsans-400italic-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/sinkinsans-400italic-webfont.woff2') format('woff2'),
+		url('../fonts/sinkinsans-400italic-webfont.woff') format('woff'),
+		url('../fonts/sinkinsans-400italic-webfont.ttf') format('truetype'),
+		url('../fonts/sinkinsans-400italic-webfont.svg#sinkin_sans400_italic') format('svg');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Sinkin Sans';
+	src: url('../fonts/sinkinsans-700bold-webfont.eot');
+	src: url('../fonts/sinkinsans-700bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/sinkinsans-700bold-webfont.woff2') format('woff2'),
+		url('../fonts/sinkinsans-700bold-webfont.woff') format('woff'),
+		url('../fonts/sinkinsans-700bold-webfont.ttf') format('truetype'),
+		url('../fonts/sinkinsans-700bold-webfont.svg#sinkin_sans700_bold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Sinkin Sans';
+	src: url('../fonts/sinkinsans-700bolditalic-webfont.eot');
+	src: url('../fonts/sinkinsans-700bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/sinkinsans-700bolditalic-webfont.woff2') format('woff2'),
+		url('../fonts/sinkinsans-700bolditalic-webfont.woff') format('woff'),
+		url('../fonts/sinkinsans-700bolditalic-webfont.ttf') format('truetype'),
+		url('../fonts/sinkinsans-700bolditalic-webfont.svg#sinkin_sans700_bold_italic') format('svg');
+	font-weight: 700;
+	font-style: italic;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: "Sinkin Sans", "Trebuchet MS", "Arial", sans-serif;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+header,
+main,
+section {
+	overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Cardo", "Sinkin Sans", "Times New Roman", Times, Arial, serif;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-size: 36px;
+	font-size: 3.6rem;
+}
+
+h2 {
+	font-size: 30px;
+	font-size: 3rem;
+}
+
+h3 {
+	font-size: 24px;
+	font-size: 2.4rem;
+}
+
+h4 {
+	font-size: 20px;
+	font-size: 2.0rem;
+}
+
+a,
+li,
+h5,
+p,
+span {
+	font-size: 16px;
+	font-size: 1.6rem;
+}
+
+h6 {
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+
+.active-link {
+	border-bottom: 2px solid #A0CD4E;
+}
+
+.btn {
+	display: inline-block;
+	font-weight: 700;
+	padding: 10px 20px;
+}
+
+.btn-buy {
+	background: #A0CD4E;
+	border: 2px solid #A0CD4E;
+	color: #FFFFFF;
+	margin-top: 10px;
+}
+
+.btn-buy:hover {
+	background: #FFFFFF;
+	color: #A0CD4E;
+}
+
+.content {
+	margin: 0 auto;
+	max-width: 980px;
+	padding: 10px;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.dont-show {
+	display: none;
+}
+
+.footer-links {
+	color: #FFFFFF;
+	display: inline-block;
+	margin: 60px 10px 20px;
+}
+
+.footer-main {
+	background: #5A5A5A;
+	margin-top: 50px;
+}
+
+.four-columns,
+.three-columns,
+.two-columns {
+	display: block;
+	float: left;
+	padding: 10px 15px;
+}
+
+.four-columns {
+	width: 25%;
+}
+
+.image-responsive{
+	width: 100%;
+}
+
+.logo {
+	float: left;
+	margin: 15px;
+}
+
+.nav-links {
+	color: #5A5A5A;
+	display: inline-block;
+	margin: 49px 10px 26px;
+}
+
+.nav-links:hover,
+.footer-links:hover {
+	color: #A0CD4E;
+}
+
+.nav-main {
+	float: right;
+	margin-right: 10px; 
+}
+
+.row {
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+
+.row div:first-child {
+	padding-left: 0;
+}
+
+.row div:last-child {
+	padding-right: 0;
+}
+
+.title-color{
+	color: #91D9F8;
+}
+
+.three-columns {
+	width: 33.33%;
+}
+
+.two-columns {
+	width: 50%;
+}
+

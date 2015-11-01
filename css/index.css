@@ -1,0 +1,54 @@
+.jumbotron {
+	background: url(../img/jumbotron.jpg) no-repeat center center;
+	background-size: 100% 100%;
+	height: 600px;
+	margin: 50px 0;
+	position: relative;
+}
+
+.jumbotron-link {
+	color: #91D9F8;
+}
+
+.jumbotron-link:hover,
+.project-link:hover {
+	color: #A0CD4E;
+}
+
+.jumbotron-text {
+	background-color: #000000;
+	background-color: rgba(0, 0, 0, 0.25);
+	bottom: 0;
+	color: #FFFFFF;
+	font-size: 20px;
+	font-size: 2rem;
+	padding:15px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+.price {
+	color: #F04040;
+	font-weight: 700;
+}
+
+.product-image {
+	max-width: 290px;
+}
+
+.product-image,
+.project-image {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.recent-products,
+.recents-projects {
+	margin-bottom: 60px;
+}
+
+.project-link {
+	color: #91D9F8;
+	font-weight: 700;
+}
